@@ -114,7 +114,7 @@ p {
 
 #about,
 #service,
-#experience,
+#project,
 #education,
 #contact {
   position: relative;
@@ -122,7 +122,7 @@ p {
 
 #home .container,
 #about .container, 
-#experience .container,
+#project .container,
 #service .container,
 #education .container,
 #contact .container {
@@ -131,7 +131,7 @@ p {
   margin: 0;
 }
 
-#experience .experience-thumb,
+#project .experience-thumb,
 #education .education-thumb  {
   padding: 22px 42px 42px 42px;
 }
@@ -142,7 +142,7 @@ footer {
   text-align: center;
 }
 
-#experience,
+#project,
 #education {
   background: #E9724C;
 }
@@ -436,23 +436,23 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Experience section              
+    Project section              
 -----------------------------------------*/
 
-#experience .experience-img {
+#project .experience-img {
   background: url('../images/project.jpg') no-repeat;
 }
 
-#experience .media-heading {
+#project .media-heading {
   margin-bottom: 0px;
 }
 
-#experience .media .fa {
+#project .media .fa {
   font-size: 42px;
   margin-right: 14px;
 }
 
-#experience small {
+#project small {
   color: #633;
   font-weight: bold;
 }
@@ -672,7 +672,7 @@ footer {
 
   #home .container,
   #about .container, 
-  #experience .container,
+  #project .container,
   #service .container,
   #education .container,
   #contact .container {
@@ -681,7 +681,7 @@ footer {
   }
 
   #about .col-md-3,
-  #experience .col-md-6,
+  #project .col-md-6,
   #education .col-md-6,
   #contact .col-md-3 {
     padding: 0;
